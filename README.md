@@ -23,15 +23,11 @@ How does SPIDER work?
 ==================
 SPIDER first obtains a geographical knowledge of the physical obstacles (e.g., extracts this information from the satellite imagery available at the edge cloud using deep learning) and then propagates it from the gateway as shown in the figure below:
 
-![Figure](/img/general.png)
+![Figure](/img/scenarios.png)
 
-**Figure 1**: *Incident-Supporting Hierarchical Cloud setup: SPIDER first extracts geographical knowledge of physical obstacles from the pre-uploaded at the edge cloud satellite imagery and then propagates this information from the gateway during disaster-incident response activities within a lost infrastructure region to enhance geographic routing.*
+**Figure **: *First scenario (a), we evaluate our approach under severe failures, and in the second scenario (b), we evaluate our approach under high mobility. *
 
-Our proposed stateless greedy forwarding algorithm viz. "Attractive/Repulsive Greedy Forwarding" that emulates electrostatic repulsive forces and achieves the worst case a **3.291** path stretch approximation bound with respect to the shortest path, then uses this geo-knowledge in addition to geo-coordinates of the nodes in order to proactively avoid local minimum situtations as shown in the figure below:
-
-![Figure](/img/SPIDER_example.jpg)
-
-**Figure 2**: *Attractive/Repulsive Greedy Forwarding (ARGF) example: ARGF starts in Attraction mode until it reaches the repulsion zone; at node b (located outside the repulsion zone), ARGF returns back to its Attraction mode. ARGF can again switch to the Repulsion mode with guaranteed progress towards destination. At node d, ARGF returns to the Attraction mode and continue forwarding in this mode to destination.*
+Facial Recognition Application: SPIDER first extracts geographical knowledge of physical obstacles from the pre-uploaded at the edge cloud satellite imagery and then offloading visual data processing using UDP to the gateway during disaster-incident response activities within a lost infrastructure region to provide sustainable performance and energy-efficient IoT application.
 
 What is inside?
 ================
