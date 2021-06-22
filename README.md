@@ -21,6 +21,8 @@ This project is licensed under the GNU General Public License - see the [LICENSE
 
 How does SPIDER work?
 ==================
+SPIDER works with Python 2.7.
+
 SPIDER first obtains a geographical knowledge of the physical obstacles (e.g., extracts this information from the satellite imagery available at the edge cloud using deep learning) and then propagates it from the gateway as shown in the figure below:
 
 ![Figure](/img/scenarios.png)
